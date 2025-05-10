@@ -1,73 +1,131 @@
-# Welcome to your Lovable project
+# 🕒 Cron Expression Visualizer & Recurrence Pattern Generator
 
-## Project info
+A powerful, developer-friendly web tool to visualise and understand cron expressions and generate recurrence patterns with human-readable descriptions. Built using React (TypeScript) or Angular, this tool helps users parse, validate, and interactively interpret scheduling syntax used in automation and task management systems.
 
-**URL**: https://lovable.dev/projects/25d3e151-eee8-4f78-a234-03dcbde59fb9
+## 🚀 Features
 
-## How can I edit this code?
+✅ Cron Expression Visualizer
+Enter a 6-part cron expression (Seconds, Minutes, Hours, Day of Month, Month, Day of Week)
 
-There are several ways of editing your application.
+Real-time parsing of the expression into individual components
 
-**Use Lovable**
+Highlights active fields
 
-Simply visit the [Lovable Project](https://lovable.dev/projects/25d3e151-eee8-4f78-a234-03dcbde59fb9) and start prompting.
+Supports month/day names (e.g., JAN, MON) and tolerates extra whitespace
 
-Changes made via Lovable will be committed automatically to this repo.
+Displays error state for invalid or incomplete expressions
 
-**Use your preferred IDE**
+✅ Recurrence Pattern Generator
+Choose between Daily, Weekly, or Monthly patterns
 
-If you want to work locally using your own IDE, you can clone this repo and push changes. Pushed changes will also be reflected in Lovable.
+Dynamically updates form inputs based on selected recurrence type
 
-The only requirement is having Node.js & npm installed - [install with nvm](https://github.com/nvm-sh/nvm#installing-and-updating)
+Generates a real-time, human-readable summary
 
-Follow these steps:
+Example (Daily): “Runs every day at 08:00 AM”
 
-```sh
-# Step 1: Clone the repository using the project's Git URL.
-git clone <YOUR_GIT_URL>
+Example (Weekly): “Runs every week on Monday and Wednesday at 09:30 AM”
 
-# Step 2: Navigate to the project directory.
-cd <YOUR_PROJECT_NAME>
+Example (Monthly): “Runs every month on the 15th at 10:00 AM”
 
-# Step 3: Install the necessary dependencies.
-npm i
+## 🛠️ Tech Stack
 
-# Step 4: Start the development server with auto-reloading and an instant preview.
-npm run dev
+You can implement this project in either of the following frameworks:
+
+Option 1: React + TypeScript
+React 18+
+
+TypeScript
+
+Tailwind CSS (or any modern styling solution)
+
+State management via React Hooks
+
+Option 2: Angular
+Angular 16+
+
+TypeScript
+
+Angular Forms
+
+SCSS or CSS Modules
+
+## 📦 Installation & Setup
+
+1. Clone the repository
+```
+git clone https://github.com/your-username/cron-visualizer.git
+cd cron-visualizer
+```
+2. Install dependencies
+
+For React:
+```
+npm install
+```
+For Angular:
+```
+npm install
 ```
 
-**Edit a file directly in GitHub**
+3. Run the development server
 
-- Navigate to the desired file(s).
-- Click the "Edit" button (pencil icon) at the top right of the file view.
-- Make your changes and commit the changes.
+For React:
+```
+npm start
+```
+For Angular:
+```
+ng serve
+```
 
-**Use GitHub Codespaces**
+## 📄 Usage
 
-- Navigate to the main page of your repository.
-- Click on the "Code" button (green button) near the top right.
-- Select the "Codespaces" tab.
-- Click on "New codespace" to launch a new Codespace environment.
-- Edit files directly within the Codespace and commit and push your changes once you're done.
+🔹 Cron Expression Input
+Type a valid 6-part cron expression in the input field:
+```
+0 15 12 1 JAN MON
+```
+🔹 Recurrence Pattern Selection
+Select from:
 
-## What technologies are used for this project?
+Daily → Choose a time.
 
-This project is built with:
+Weekly → Choose one or more days and a time.
 
-- Vite
-- TypeScript
-- React
-- shadcn-ui
-- Tailwind CSS
+Monthly → Choose a date and a time.
 
-## How can I deploy this project?
+## 💡 Example Descriptions
 
-Simply open [Lovable](https://lovable.dev/projects/25d3e151-eee8-4f78-a234-03dcbde59fb9) and click on Share -> Publish.
+Recurrence	              User Input	                           Output Description
+Daily	                    08:00 AM	                          Runs every day at 08:00 AM
+Weekly	             Mon, Wed at 09:30 AM	                    Runs every week on Monday and Wednesday at 09:30 AM
+Monthly	          15th day of month at 10:00 AM            	Runs every month on the 15th at 10:00 AM
 
-## Can I connect a custom domain to my Lovable project?
+## Demo
 
-Yes, you can!
+![CE1](https://github.com/user-attachments/assets/cd4da5aa-521a-421a-92db-069561bf96d0)
+![CE2](https://github.com/user-attachments/assets/e5f473b8-b277-4291-8918-76d1dc46f479)
 
-To connect a domain, navigate to Project > Settings > Domains and click Connect Domain.
+## 🤝 Contributing
+Fork the repo
 
-Read more here: [Setting up a custom domain](https://docs.lovable.dev/tips-tricks/custom-domain#step-by-step-guide)
+Create your feature branch (git checkout -b feature/AmazingFeature)
+
+Commit your changes (git commit -m 'Add some feature')
+
+Push to the branch (git push origin feature/AmazingFeature)
+
+Open a Pull Request
+
+Request
+
+## 📄 License
+This project is licensed under the MIT License.
+
+## 🙋‍♀️ Built With Love By
+
+# Roshni Kumari💗
+🌐 LinkedIn: roshnikumari1 
+🐙 GitHub: RSN601KRI
+
